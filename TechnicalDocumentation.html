@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="TechnicalDocumentation.css">
+    <title>build a technical documentation page</title> 
+    </head>
+
+
+    <body>
+
+
+       <nav id="navbar"> 
+              <header id="navbar">Python Reference Documentation</header>
+  <a class="nav-link"href="#introduction"><li>introduction</li></a>
+       <a class="nav-link"href="#Builtinfunctions"><li>Builtinfunctions</li></a>
+       <a class="nav-link"href="#String_Methods"><li>String_Methods</li></a>
+      <a class="nav-link"href="#List_Methods"><li>List_Methods</li></a>
+       <a class="nav-link"href="#Dictionary_Methods"><li>Dictionary_Methods</li></a>
+       <a class="nav-link"href="#Tuple_Methods"><li>Tuple_Methods</li></a>
+       <a class="nav-link"href="#Set_Methods"><li>Set_Methods</li></a>
+       <a class="nav-link"href="#File_Methods"><li>File_Methods</li></a>
+     <a class="nav-link"href="#Keywords"><li>Keywords</li></a>
+       <a class="nav-link"href="#Glossary"><li>Glossary</li></a>
+            </nav>
+
+
+      <main id="main-doc">
+
+  <section class="main-section"id="introduction">        
+    <header>introduction</header>
+    <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+It is used for:
+
+web development (server-side),
+software development,
+mathematics,
+system scripting.</P>
+<p>
+Python can be used on a server to create web applications.
+Python can be used alongside software to create workflows.
+Python can connect to database systems. It can also read and modify files.</p>
+<p>
+Python can be used to handle big data and perform complex mathematics.</p>
+<p>
+Python can be used for rapid prototyping, or for production-ready software development.</p>
+<p>
+Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+Python has a simple syntax similar to the English language.
+Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+Python can be treated in a procedural way, an object-oriented way or a functional way.
+Good to know</P>
+<p>
+The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.</p>
+<p>
+In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.</p>
+<p>
+Python Syntax compared to other programming languages
+Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</p>
+<P>
+Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</p>
+            </section>
+
+  <section class="main-section" id="Builtinfunctions">
+  <header> Builtinfunctions</header>
+   <p> Function	Description<li>
+abs()	Returns the absolute value of a number</li>
+<li>
+all()	Returns True if all items in an iterable object are true</li>
+<li>
+any()	Returns True if any item in an iterable object is true</li>
+<li>
+ascii()	Returns a readable version of an object. Replaces none-ascii characters with escape character</li>
+<li>
+bin()	Returns the binary version of a number</li>
+<li>
+bool()	Returns the boolean value of the specified object</li>
+<li>
+bytearray()	Returns an array of bytes</li>
+<Li>
+bytes()	Returns a bytes object</li>
+<li>
+callable()	Returns True if the specified object is callable, otherwise False</li>
+<li>
+chr()	Returns a character from the specified Unicode code.</li>
+<li>
+classmethod()	Converts a method into a class method</li>
+<li>
+compile()	Returns the specified source as an object, ready to be executed</li>
+<li>
+complex()	Returns a complex number</li>
+<li>
+delattr()	Deletes the specified attribute (property or method) from the specified object</li>
+<li>
+dict()	Returns a dictionary (Array)</li>
+<li>
+dir()	Returns a list of the specified object's properties and methods</li>
+<li>
+divmod()	Returns the quotient and the remainder when argument1 is divided by argument2</li>
+<li>
+enumerate()	Takes a collection (e.g. a tuple) and returns it as an enumerate object</li>
+<li>
+eval()	Evaluates and executes an expression</li>
+<li>
+exec()	Executes the specified code (or object)</li>
+<li>
+filter()	Use a filter function to exclude items in an iterable object</li>
+<li>
+float()	Returns a floating point number</li></p>
+    </section>
+
+ <section class="main-section"id="String_Methods">
+  <header>String_Methods</header>
+  <p> Method	Description<li>
+capitalize()	Converts the first character to upper case</li>
+<li>
+casefold()	Converts string into lower case</li>
+<li>
+center()	Returns a centered string</li>
+<li>
+count()	Returns the number of times a specified value occurs in a string</li>
+<li>
+encode()	Returns an encoded version of the string</li>
+<li>
+endswith()	Returns true if the string ends with the specified value</li>
+<li>
+expandtabs()	Sets the tab size of the string</li>
+<li>
+find()	Searches the string for a specified value and returns the position of where it was found</li>
+<li>
+format()	Formats specified values in a string</li>
+<li>
+format_map()	Formats specified values in a string</li>
+<Li>
+index()	Searches the string for a specified value and returns the position of where it was found</li>
+<Li>
+isalnum()	Returns True if all characters in the string are alphanumeric</li>
+<li>
+isalpha()	Returns True if all characters in the string are in the alphabet</li>
+<li>
+isascii()	Returns True if all characters in the string are ascii characters</li>
+<Li>
+isdecimal()	Returns True if all characters in the string are decimals</li>
+<Li>
+isdigit()	Returns True if all characters in the string are digits</li>
+<li>
+isidentifier()	Returns True if the string is an identifier</li>
+<li>
+islower()	Returns True if all characters in the string are lower case</li>
+<li>
+isnumeric()	Returns True if all characters in the string are numeric</li>
+<Li>
+isprintable()	Returns True if all characters in the string are printable</li>
+<li>
+isspace()	Returns True if all characters in the string are whitespaces</li>
+<li>
+istitle()	Returns True if the string follows the rules of a title</li>
+<li></li>
+<li>
+isupper()	Returns True if all characters in the string are upper case</li>
+<li>
+join()	Converts the elements of an iterable into a string</li>
+<li>
+ljust()	Returns a left justified version of the string</li>
+<li>
+lower()	Converts a string into lower case</li></p>  
+    </section>
+
+ <section  class="main-section"id="List_Methods" >
+  <header>List_Methods</header>
+  <p> Method	Description<li>
+append()	Adds an element at the end of the list</li>
+<li>
+clear()	Removes all the elements from the list</li>
+<Li>
+copy()	Returns a copy of the list</li>
+<li>
+count()	Returns the number of elements with the specified value</li>
+<li>
+extend()	Add the elements of a list (or any iterable), to the end of the current list</li>
+<li>
+index()	Returns the index of the first element with the specified value</li>
+<li>
+insert()	Adds an element at the specified position</li>
+<li>
+pop()	Removes the element at the specified position</li>
+<li>
+remove()	Removes the first item with the specified value</li>
+<Li>
+reverse()	Reverses the order of the list</li>
+<li>
+sort()	Sorts the list </li></p>
+  </section>
+
+  <section class="main-section" id="Dictionary_Methods" >
+ <header>Dictionary_Methods</header>
+ <code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+
+  <p>Method	Description<li>
+clear()	Removes all the elements from the dictionary</li>
+<li>
+copy()	Returns a copy of the dictionary</li>
+<li>
+fromkeys()	Returns a dictionary with the specified keys and value</li>
+<li>
+get()	Returns the value of the specified key</li>
+<li>
+items()	Returns a list containing a tuple for each key value pair</li>
+<li>
+keys()	Returns a list containing the dictionary's keys</li>
+<li>
+pop()	Removes the element with the specified key</li>
+<li>
+popitem()	Removes the last inserted key-value pair</li>
+<li>
+setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</li>
+<li>
+update()	Updates the dictionary with the specified key-value pairs</li>
+<li>
+values()	Returns a list of all the values in the dictionary</li> </p>
+  </section>
+
+
+<section  class="main-section"id="Tuple_Methods">
+ <header>Tuple_Methods</header>
+ <p>Method	Description<li>
+count()	Returns the number of times a specified value occurs in a tuple</li>
+<li>
+index()	Searches the tuple for a specified value and returns the position of where it was found</li></p>
+</section>
+
+<section  class="main-section"id="Set_Methods" >
+ <header>Set_Methods</header>
+ <p>Method	Shortcut	Description<li>
+add()	 	Adds an element to the set</li>
+<li>
+clear()	 	Removes all the elements from the set</li>
+<li>
+copy()	 	Returns a copy of the set</li>
+<li>
+difference()	-	Returns a set containing the difference between two or more sets</li>
+<li>
+difference_update()	-=	Removes the items in this set that are also included in another, specified set</li>
+<li>
+discard()	 	Remove the specified item</li>
+<li>
+intersection()	&	Returns a set, that is the intersection of two other sets</li>
+<Li>
+intersection_update()	&=	Removes the items in this set that are not present in other, specified set(s)</li>
+<li>
+isdisjoint()	 	Returns whether two sets have a intersection or not</li>
+<li>
+issubset()	<=	Returns whether another set contains this set or not
+ 	<	Returns whether all items in this set is present in other, specified set(s)</li>
+   <li>
+issuperset()	>=	Returns whether this set contains another set or not
+ 	>	Returns whether all items in other, specified set(s) is present in this set</li>
+   <li>
+pop()	 	Removes an element from the set</li>
+<li>
+remove()	 	Removes the specified element</li>
+<li>
+symmetric_difference()	^	Returns a set with the symmetric differences of two sets</li>
+<li>
+symmetric_difference_update()	^=	Inserts the symmetric differences from this set and another</li>
+<li>
+union()	|	Return a set containing the union of sets</li>
+<Li>
+update()	|=	Update the set with the union of this set and others</li></p>
+</section>
+
+<section  class="main-section"id="File_Methods" >
+ <header>File_Methods</header>
+ <p><li>close()	Closes the file</li>
+ <li>
+detach()	Returns the separated raw stream from the buffer</li>
+<li>
+fileno()	Returns a number that represents the stream, from the operating system's perspective</li>
+<li>
+flush()	Flushes the internal buffer</li>
+<li>
+isatty()	Returns whether the file stream is interactive or not</li>
+<li>
+read()	Returns the file content</li>
+<li>
+readable()	Returns whether the file stream can be read or not</li>
+<li>
+readline()	Returns one line from the file</li>
+<li>
+readlines()	Returns a list of lines from the file</li>
+<li>
+seek()	Change the file position</li>
+<li>
+seekable()	Returns whether the file allows us to change the file position</li>
+<li>
+tell()	Returns the current file position</li>
+<li>
+truncate()	Resizes the file to a specified size</li>
+<li>
+writable()	Returns whether the file can be written to or not</li>
+<li>
+write()	Writes the specified string to the file</li>
+<li>
+writelines()	Writes a list of strings to the file</li>
+</p>
+</section>
+
+<section id="Keywords" class="main-section" >
+ <header>Keywords</header>
+ <p><li>
+and	A logical operator</li>
+<li>
+as	To create an alias</li>
+<li>
+assert	For debugging</li>
+<li>
+break	To break out of a loop</li>
+<li>
+class	To define a class</li>
+<li>
+continue	To continue to the next iteration of a loop</li>
+<li>
+def	To define a function</li>
+<li>
+del	To delete an object</li>
+<li>
+elif	Used in conditional statements, same as else if</li>
+<li>
+else	Used in conditional statements</li></p>
+</section>
+
+<section id="Glossary" class="main-section" >
+ <header>Glossary</header>
+<p> <li>Indentation	Indentation refers to the spaces at the beginning of a code line</li>
+<li>
+Comments	Comments are code lines that will not be executed</li>
+<li>
+Multiline Comments	How to insert comments on multiple lines</li>
+<li>
+Creating Variables	Variables are containers for storing data values</li>
+<li>
+Variable Names	How to name your variables</li>
+<li>
+Assign Values to Multiple Variables	How to assign values to multiple variables</li>
+<li>
+Output Variables	Use the print statement to output variables</li>
+<li>
+String Concatenation	How to combine strings</li>
+<li>
+Global Variables	Global variables are variables that belongs to the global scope</li>
+<li>
+Built-In Data Types	Python has a set of built-in data types</li></p>  
+</section>
+        </main>
+      </body>
+  </html>
