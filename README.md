@@ -35,7 +35,8 @@ The following projects were built during the certification program:
 18. *Building a Ferris Wheel*
 19. *Building a Penguin*
 20. *Personal Portfolio Webpage(Certification Project)*
- *Each project demonstrates the application of HTML and CSS concepts, ensuring responsiveness and accessibility.*
+
+Each project demonstrates the application of HTML and CSS concepts, ensuring responsiveness and accessibility.
 
 ## Technologies Used  
 
